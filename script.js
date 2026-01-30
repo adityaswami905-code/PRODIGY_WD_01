@@ -26,7 +26,6 @@ window.addEventListener("scroll", () => {
         }
     });
 
-    // Scroll progress bar
     const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
     const scrolled = (window.scrollY / scrollHeight) * 100;
     progressBar.style.width = scrolled + "%";
@@ -40,5 +39,8 @@ menuToggle.addEventListener("click", () => {
 // Dark mode toggle
 themeToggle.addEventListener("click", () => {
     document.body.classList.toggle("dark");
-    themeToggle.textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
+
+    themeToggle.innerHTML = document.body.classList.contains("dark")
+        ? '<i class="fa-solid fa-sun"></i>'
+        : '<i class="fa-solid fa-moon"></i>';
 });

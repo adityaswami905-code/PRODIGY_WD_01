@@ -1,19 +1,17 @@
-# PRODIGY_WD_01
+Interactive Navigation Menu
 
-This project is created for **Prodigy Infotech Internship Task-01**.
+A responsive interactive navbar built using HTML, CSS, and JavaScript. It changes style on scroll, highlights active links, and includes a dark/light mode toggle.
 
-It includes a **fixed interactive navigation menu** that changes style on **scroll** and **hover**, built using **HTML, CSS, and JavaScript**.
+Features
 
-## Features
-- Fixed navigation bar  
-- Scroll color change  
-- Hover effects  
-- Responsive design  
+Fixed navbar
 
-## Technologies Used
-- HTML  
-- CSS  
-- JavaScript  
+Scroll & hover effects
 
-## Author
-Aditya Swami
+Dark/Light mode
+
+Mobile responsive
+
+Tech Used
+
+HTML • CSS • JavaScript

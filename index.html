@@ -3,7 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Prodigy Task-01 </title>
+<title> Navbar</title>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,40 +15,36 @@
 <div id="progressBar"></div>
 
 <header id="navbar">
-    <div class="logo">ProDigy Infotech</div>
+    <div class="logo">MySite</div>
 
-    <div class="menu-toggle" id="menuToggle">☰</div>
-
-    <nav class="nav-links" id="navLinks">
-        <a href="#home" class="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+    <nav id="navLinks" class="nav-links">
+        <a href="#home" class="active"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="#about"><i class="fa-solid fa-user"></i> About</a>
+        <a href="#services"><i class="fa-solid fa-layer-group"></i> Services</a>
+        <a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a>
     </nav>
 
-    <button id="themeToggle">🌙</button>
+    <div class="nav-actions">
+        <button id="themeToggle"><i class="fa-solid fa-moon"></i></button>
+        <div id="menuToggle" class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
 </header>
 
-<section id="home" class="hero section">
-    <h1>Responsive Landing Page</h1>
-    <p>Prodigy Infotech Task-01 </p>
+<section id="home" class="section hero">
+    <h1>Welcome to  UI</h1>
 </section>
 
 <section id="about" class="section light">
-    <h2>About This Task</h2>
-    <p>Interactive, modern, responsive navigation menu project.</p>
+    <h2>About Section</h2>
 </section>
 
-<section id="services" class="section">
+<section id="services" class="section hero">
     <h2>Services Section</h2>
 </section>
 
-<section id="projects" class="section light">
-    <h2>Projects Section</h2>
-</section>
-
-<section id="contact" class="section">
+<section id="contact" class="section light">
     <h2>Contact Section</h2>
 </section>
 
