@@ -1,8 +1,8 @@
-Interactive Navigation Menu
+<h1>Interactive Navigation Menu</h1>
 
-A responsive interactive navbar built using HTML, CSS, and JavaScript. It changes style on scroll, highlights active links, and includes a dark/light mode toggle.
+A responsive interactive navbar built using <b>HTML, CSS,</b> and <b>JavaScript.</b> It changes style on scroll, highlights active links, and includes a dark/light mode toggle.
 
-Features
+<h3>Features</h3>
 
 Fixed navbar
 
@@ -12,6 +12,6 @@ Dark/Light mode
 
 Mobile responsive
 
-Tech Used
+<h3>Tech Used</h3>
 
 HTML • CSS • JavaScript
